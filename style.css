@@ -7,11 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-/******************************** Estilo Topo*/
-.topo {
+.topo, #sobre {
     width: 100%;
 }
+
+/******************************** Estilo Topo*/
 
 .conteudo-topo {
     max-width: 1150px;
@@ -74,4 +74,33 @@
 
 h1 {
     font-size: 60px;
+}
+
+/******************************** Estilo Sobre*/
+
+.conteudo-sobre {
+    max-width: 1150px;
+    padding: 30px 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.conteudo-sobre img {
+    width: 100%;
+}
+
+.conteudo-sobre p {
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.conteudo-sobre p:first-letter {
+    font-weight: bold;
 }
