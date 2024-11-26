@@ -89,6 +89,7 @@ h3 {
     font-size: 28px;
     padding: 10px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .conteudo-sobre img {
@@ -101,6 +102,46 @@ h3 {
     line-height: 25px;
 }
 
-.conteudo-sobre p:first-letter {
+p:first-letter {
     font-weight: bold;
+}
+
+/******************************** Estilo Pontos Turisticos*/
+
+#pontos {
+    background-color: rgba(216, 216, 216, 0.555);
+}
+
+.conteudo-pontos {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 60px 30px;
+    position: relative
+}
+
+.conteudo-pontos img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.conteudo-pontos p {
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 25px;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+ul li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: URL(img/seta.png);
+    background-size: 20px 20px;
+    margin-right: 10px;
+    display: inline-block;
+
 }
