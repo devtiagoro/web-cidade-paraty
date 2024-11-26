@@ -1,0 +1,46 @@
+/******************************** Estilo Geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/******************************** Estilo Topo*/
+.topo {
+    width: 100%;
+}
+
+.conteudo-topo {
+    max-width: 1024px;
+    padding: 20px;;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    border-bottom: 2px green solid;
+}
+
+/******************************** Estilo Conteúdo*/
+/******************************** Estilo Banner*/
