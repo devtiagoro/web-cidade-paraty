@@ -29,45 +29,44 @@ h3 {
 /******************************** Estilo Topo*/
 
 .conteudo-topo {
-    max-width: 1150px;
     padding: 10px;
     margin: 0 auto;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .logo {
+    max-width: 120px;
     text-align: center;
-    flex: 0 0 120px;
-    border: 1px solid red;
-    margin-right: 550px;
+    flex-grow: 1;
+    margin-top: 10px auto;
 }
 
 .logo img {
-    width: 120px;
+    max-width: 120px;
+    flex-grow: 1;
+    margin: 0 auto;
+    align-items: center
 }
 
 .menu {
+    width: 400px;
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: space-around;
+    gap: 10px;
     align-items: center;
-    flex: 1 0 300px;
-    border: 1px solid red;;
+    margin-top: 10px;
 }
 
 .menu a {
-    width: calc((300px / 3) - 60px);
+
     text-decoration: none;
     color: black;
-    padding: 5px 0;
+    padding: 5px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-grow: 1;
 }
 
