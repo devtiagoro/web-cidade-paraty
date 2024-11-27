@@ -40,7 +40,7 @@ h3 {
 
 .logo {
     flex-grow: 1;
-    flex-basis: 400px;
+    flex-basis: 300px;
 }
 
 .logo img {
@@ -48,12 +48,15 @@ h3 {
 }
 
 .menu {
+    width: 300px;
+    border: 1px solid red;
     display: flex;
-    justify-content: space-between;
-    gap: 15px;
+    justify-content: space-around;
+    gap: 8px;
     align-items: center;
     flex-grow: 1;
-    flex-basis: 400px;
+    flex-basis: 300px;
+    margin-top: 20px;
 }
 
 .menu a {
