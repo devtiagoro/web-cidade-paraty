@@ -40,8 +40,10 @@ h3 {
 }
 
 .logo {
-    flex-basis: 120px;
     text-align: center;
+    flex: 0 0 120px;
+    border: 1px solid red;
+    margin-right: 550px;
 }
 
 .logo img {
@@ -51,15 +53,22 @@ h3 {
 .menu {
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    gap: 30px;
     align-items: center;
-    flex-basis: 400px;
+    flex: 1 0 300px;
+    border: 1px solid red;;
 }
 
 .menu a {
+    width: calc((300px / 3) - 60px);
     text-decoration: none;
     color: black;
-    padding: 5px 0
+    padding: 5px 0;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
 .menu a:hover {
