@@ -40,6 +40,7 @@ h3 {
 
 .logo {
     flex-grow: 1;
+    flex-basis: 400px;
 }
 
 .logo img {
@@ -52,6 +53,7 @@ h3 {
     gap: 15px;
     align-items: center;
     flex-grow: 1;
+    flex-basis: 400px;
 }
 
 .menu a {
