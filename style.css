@@ -35,12 +35,13 @@ h3 {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .logo {
-    flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 120px;
+    text-align: center;
 }
 
 .logo img {
@@ -48,13 +49,11 @@ h3 {
 }
 
 .menu {
-    max-width: 100px;
     display: flex;
-    justify-content: space-around;
-    gap: 8px;
+    justify-content: space-between;
+    gap: 60px;
     align-items: center;
-    flex-grow: 1;
-    flex-basis: 100px;
+    flex-basis: 400px;
     margin-top: 20px;
 }
 
