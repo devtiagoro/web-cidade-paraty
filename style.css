@@ -51,10 +51,12 @@ h3 {
 .menu a {
     text-decoration: none;
     color: black;
+    padding: 5px 0
 }
 
 .menu a:hover {
-    border-bottom: 2px green solid;
+    border-bottom: 2px #f5c002 solid;
+    border-top: 2px #f5c002 solid;
 }
 
 /******************************** Estilo Conteúdo*/
@@ -165,8 +167,6 @@ ul li::before {
     line-height: 25px;
 }
 
-
-
 .fotos {
     width: 100%;
 }
@@ -178,5 +178,17 @@ ul li::before {
 
 .fotos img:hover {
     opacity: 1;
+}
+
+/******************************** Estilo Rodapé/footer*/
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin: 25px 0 0 0;
+    background: #f5c002;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
 }
 
