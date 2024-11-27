@@ -7,8 +7,23 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.topo, #sobre {
+.topo, #sobre, #pontos, #galeria {
     width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.destaque p:first-letter {
+    font-weight: bold;
 }
 
 /******************************** Estilo Topo*/
@@ -72,25 +87,18 @@
     text-align: center;;
 }
 
-h1 {
-    font-size: 60px;
-}
+
 
 /******************************** Estilo Sobre*/
 
 .conteudo-sobre {
     max-width: 1150px;
-    padding: 30px 60px;
+    padding: 30px 30px;
     margin: 0 auto;
     text-align: center;
 }
 
-h3 {
-    font-size: 28px;
-    padding: 10px;
-    margin-bottom: 25px;
-    text-align: center;
-}
+
 
 .conteudo-sobre img {
     width: 100%;
@@ -102,9 +110,7 @@ h3 {
     line-height: 25px;
 }
 
-p:first-letter {
-    font-weight: bold;
-}
+
 
 /******************************** Estilo Pontos Turisticos*/
 
@@ -143,5 +149,34 @@ ul li::before {
     background-size: 20px 20px;
     margin-right: 10px;
     display: inline-block;
-
 }
+
+/******************************** Estilo Galeria*/
+
+.conteudo-galeria {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+.conteudo-galeria p {
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+
+.fotos {
+    width: 100%;
+}
+
+.fotos img {
+    width: calc((100% / 3) - 3px);
+    opacity: 0.6;
+}
+
+.fotos img:hover {
+    opacity: 1;
+}
+
